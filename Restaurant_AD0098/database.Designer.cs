@@ -141,6 +141,7 @@ namespace Restaurant_AD0098
             this.Controls.Add(this.lblID);
             this.Name = "frmdatabase";
             this.Text = "database";
+            this.Load += new System.EventHandler(this.frmdatabase_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -66,5 +66,10 @@ namespace Restaurant_AD0098
             dataGridView1.DataSource = dt;
             restaurant.Close();
         }
+
+        private void frmdatabase_Load(object sender, EventArgs e)
+        {
+            GetRestaurant();
+        }
     }
 }
